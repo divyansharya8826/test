@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Curated Website</title>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <header class="header1">
+      <nav class="nav1">
+        <div class="div1">
+          <ul class="list1">
+            <li class="li1"><a href="/" class="link1" id="login">Log In</a></li>
+            <li class="li1" id="signup">
+              <a href="/" id="asignup">
+                <div class="div3">
+                  <span>Sign Up</span>
+                </div>
+              </a>
+            </li>
+            <li class="li1" id="limenu"><a href="/" id="menu" aria-label="menu">. . .</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="div2">
+        <h1 class="heading1">AI Text Generator</h1>
+      </div>
+      <div class="div4">
+        <div class="div5">
+          <div class="div6">
+            <div class="div7">
+              <textarea class="txtarea" placeholder="Enter your topic"></textarea>
+            </div>
+            <div class="div8">
+              <button id="btn" type="submit" onclick="submit();result()">Generate</button>
+            </div>
+          </div>
+          <div class="div9" id="divi">
+            <img id="img1" src="https://www.brightful.me/content/images/2020/09/random-word-generator.gif" alt="text generated image"/>
+          </div>
+        </div>
+      </div>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
